@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garcler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header_container">
+                <p class="header_title">
+                    Garcler
+                </p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main_container">
+                <div class="main_block playing_field">
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+
+                    <div class="playing_field_block">
+                        <div class="playing_field_block_animate"></div>
+
+                        <img src="img/алмаз.svg" alt="Diamond">
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-button" onclick="prevSlide()"><img src="img/стрелка влево.svg" alt="<"></div>
+                    <div class="slider-content">
+                        <div class="number" id="slider-number">3</div>
+                        <div class="label">ловушек</div>
+                    </div>
+                    <div class="slider-button" onclick="nextSlide()"><img src="img/стрелка вправо.svg" alt=">"></div>
+                </div>
+
+                <button class="custom-button">старт</button>
+            </div>
+        </main>
+    </div>
+
+
+    <script>
+        const values = [1, 3, 5, 7]; // Возможные значения ловушек
+        let currentIndex = 0; // Индекс текущего значения
+        const slider = document.getElementById('slider-number');
+        const fieldBlocks = document.querySelectorAll('.playing_field_block'); // Все клетки
+        let isAnimating = false;
+
+        function updateCounter() {
+            slider.textContent = values[currentIndex];
+        }
+
+        function prevSlide() {
+            if (currentIndex > 0) {
+                currentIndex--;
+            }
+            updateCounter();
+        }
+
+        function nextSlide() {
+            if (currentIndex < values.length - 1) {
+                currentIndex++;
+            }
+            updateCounter();
+        }
+
+        // Логика для кнопки "старт"
+        const startBtn = document.querySelector('.custom-button');
+        startBtn.addEventListener('click', () => {
+            if (isAnimating) return; // Если анимация ещё идёт, игнорируем нажатие
+
+            isAnimating = true; // Блокируем повторное нажатие
+            startBtn.setAttribute('disabled', true); // Отключаем кнопку
+            const trapCount = values[currentIndex]; // Текущее количество ловушек
+            const openCount = trapCount === 1 ? 10 : trapCount === 3 ? 5 : trapCount === 5 ? 4 : 3; // Количество клеток
+            const randomIndexes = [];
+
+            // Генерируем уникальные случайные индексы для открытия клеток
+            while (randomIndexes.length < openCount) {
+                const randomIndex = Math.floor(Math.random() * fieldBlocks.length);
+                if (!randomIndexes.includes(randomIndex)) {
+                    randomIndexes.push(randomIndex);
+                }
+            }
+
+            // Сбрасываем ранее открытые клетки
+            fieldBlocks.forEach(block => {
+                block.classList.remove('open');
+                const img = block.querySelector('img');
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0)';
+            });
+
+            // Анимация открытия клеток
+            randomIndexes.forEach((index, i) => {
+                setTimeout(() => {
+                    const block = fieldBlocks[index];
+                    block.classList.add('open');
+                    setTimeout(() => {
+                        const img = block.querySelector('img');
+                        img.style.opacity = '1';
+                        img.style.transform = 'scale(1)';
+                    }, 1000);
+                }, i * 1000);
+            });
+
+            const totalAnimationTime = randomIndexes.length * 1000 + 1000;
+
+            setTimeout(() => {
+                isAnimating = false; // Разрешаем нажатие
+                startBtn.removeAttribute('disabled'); // Активируем кнопку
+            }, totalAnimationTime);
+        });
+        updateCounter()
+
+    </script>
+
+</body>
+
+</html>
