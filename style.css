@@ -296,12 +296,12 @@ body {
 
 @media (min-width: 321px) and (max-width: 480px) {
     .playing_field_block {
-        height: 60px;
+        height: 52px;
     }
   
     .playing_field {
-        gap: 7px;
-        padding: 15px;
+        gap: 6px;
+        padding: 12px;
         width: 85%;
     }
     .custom-button {
